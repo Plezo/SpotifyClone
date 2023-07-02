@@ -1,6 +1,3 @@
-
-// up to 1:49:24 on video
-
 import { getToken } from 'next-auth/jwt';
 import { NextResponse } from 'next/server';
 

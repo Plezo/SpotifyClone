@@ -1,17 +1,22 @@
+/*
+TOOD:
+Figure out the issue with no data on initial load
+*/
+
+
 import Sidebar from '../components/Sidebar'
+import Center from '../components/Center'
 import { getServerSession } from 'next-auth/next'
 import { authOptions } from '../lib/auth'
 
 export default async function Home() {
   const session = await getServerSession({ authOptions })
 
-  console.log(session)
-
   return (
     <div className='bg-black h-screen overflow-hidden'>
-      <main>
+      <main className='flex'>
         <Sidebar />
-        {/* Center */}
+        <Center />
       </main>
 
       <div>

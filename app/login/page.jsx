@@ -12,6 +12,8 @@ async function LoginPage() {
             <Image 
             className='w-52 mb-5'
             src={spotifyImg}
+            width={500}
+            height={500}
             alt='' 
             />
 
