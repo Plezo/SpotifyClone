@@ -1,3 +1,8 @@
+
+## Known issues
+- Token/Session are undefined on initial load before the center component loads (my guess is that the promise returns after the center component is loaded rather than before)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
