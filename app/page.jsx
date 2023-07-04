@@ -1,9 +1,3 @@
-/*
-TOOD:
-Figure out the issue with no data on initial load
-*/
-
-
 import Sidebar from '../components/Sidebar'
 import Center from '../components/Center'
 import Player from '../components/Player'
